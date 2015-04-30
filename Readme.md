@@ -55,11 +55,11 @@ Usage
 -----
 For a new app:
 
-    heroku create --buildpack https://github.com/thenovices/heroku-buildpack-scipy
+    heroku create --buildpack https://github.com/vccabral/heroku-buildpack-scipy
 
 For an existing app:
 
-    heroku config:set BUILDPACK_URL=https://github.com/thenovices/heroku-buildpack-scipy
+    heroku config:set BUILDPACK_URL=https://github.com/vccabral/heroku-buildpack-scipy
 
 You must specify your exact desired version in `requirements.txt` (e.g.,
 `numpy==1.9.0`). If no version is specified, the latest version available will
